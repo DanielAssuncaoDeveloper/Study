@@ -1,0 +1,31 @@
+Nomes Significativos
+-----------
+
+O nome de uma variável, função ou classe deve responder a todas as grandes questões. Ele deve lhe dizer porque existe, o que faz e como é usado. Se um nome requer um comentário, então ele não revela seu propósito.
+
+int d; // tempo decorrido em dias
+
+O nome 'd' não revela nada. Ele não indica a ideia de tempo decorrido, nem de dias. Devemos escolher um nome que especifique seu uso para a mensuração e a unidade usada.
+
+int timeInDays;
+
+"Faça uma distinção de nomes de uma forma que o leitor compreenda as diferenças."
+
+"O tamanho de um nome deve ser proporcional ao tamanho do escopo."
+
+
+Nome de Classes
+--------
+
+Classes e objetos devem ter nomes com substantivo(s), como Cliente, PaginaWiki, Conta, etc.
+
+Nome de Métodos
+---------
+
+Os nome de métodos devem ter verbos, como postarPagamento, excluirPagina ou salvar. 
+
+Metodos de:
+
+ Acesso - Get;
+ Alteração - Set;
+ Autenticação - Is;

@@ -1,0 +1,29 @@
+O que são algoritimos?
+==============
+"Um algoritimo é qualquer procedimento computacional bem definido que toma algum valor ou conjunto de valores como ENTRADA e produz algum valor ou conjunto de valores como SAÍDA."
+
+
+Exercícios 1.1
+=================
+1. Calcular o menor percurso em um conjunto de pistas de corrida
+
+2. A eficiência de manutenção do algoritimo ou consumo de memória
+
+3. Dicionário. Sua estrutura, nos permite fazer consultas por um determinado valor, passado uma key que atribuimos a ele no momento de sua inserção. Sua limitação é que ele não funciona bem como uma lista por exemplo, não podendo ser utilizado para ordenar ou filtrar dados.
+
+4. São semelhantes pois ambos procuram um caminho com a menor medida de tempo possível. 
+São divergentes pois, o problema do caixeiro viajante, tem como questão principal, ordernar os destinos mais próximos entre sí, precisando criar uma ligação de destino em destino, visando obter o menor percurso total.
+
+5.1 Uma estrutura de relacionamentos em um banco de dados. Dependendo da estrutura que for utilizada nos relacionamentos, pode acabar não cumprindo o objetivo proposto.
+5.2 Um algoritimo de ordenação em um conjunto com poucos ítens, mesmo que o algorítimo não seja o mais eficiente, por serem poucos ítens a diferença seria de tempo seria quase imperceptivel.
+
+
+Exercícios 1.2:
+==================
+1. Um aplicativo como o Waze por exemplo. Além de calcular o menor percurso, o mesmo tem que considerar outros fatores (como trânsito, acidêntes na estrada, velocidade permitida na via etc) para determinar o menor percurso possível disponível para o usuário se deslocar do ponto A ao ponto B. Creio que a maior função desses algoritimos, seja considerar quais são as rotas possíveis, determinar a velocidade que podemos percorrer por essas rotas e assim determinar um percurso para ser realizado. Creio que um algoritimo de Grafos, implementado com alguns outros cairia bem para a aplicação.
+
+2. Não consigo calcular
+
+3. 15 
+
+

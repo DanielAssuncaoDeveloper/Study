@@ -1,0 +1,38 @@
+
+"Honestidade em pequenas coisas não é coisa pequena"
+
+"Tornar seu código legível é tão importante quanto tornalo executavel"
+
+"Aplicar um local de esforços pequenos e individuais em um grande todo"
+
+"Um poema nunca fica pronto e requer trabalho contínuo, e parar de trabalhar nele seria abandoná-lo"
+
+"Não é porque estes atos são simples que eles são simplistas"
+
+"O projeto vive no código"
+
+"A abstração é maligna, O código é antimaligno, e talvez o código limpo seja divino."
+
+Abstração
+---------
+Abstração é a habilidade de concentrar nos aspectos essenciais de um contexto qualquer, ignorando características menos importantes ou acidentais.
+
+
+5S
+----
+ 
+ Organização ("Ordenar")
+// Saber onde estão as coisas, usar nomes adequados
+
+ Arrumação ("Sistematizar")
+// Um pedaço de código deve estar onde você espera encontrá-lo, caso não esteja, refatore e o coloque lá
+
+ Limpeza ("Polir")
+// Manter o local sem fios pendurados, gordura, migalhas e lixo. Evite comentários desnecessários
+
+ Padronização
+// Ter um estilo de programação consistente e práticas dentro da equipe
+
+ Disciplina (Autodisciplina) 
+// Seguir as práticas frequentimente e estar disposto a mudar
+

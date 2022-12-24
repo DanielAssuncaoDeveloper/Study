@@ -1,0 +1,51 @@
+
+ I - Código Limpo (11, )
+------
+
+
+O Código
+----
+
+"As pessoas que dizem que a programação vai acabar esperam que um dia descubramos uma forma de criar máquinas que possam fazer o que desejamos em vez do que mandamos"
+
+   Os códigos que escrevemos são completamente exatos, cada código MANDA seu computador fazer uma coisa diferente. Nós temos que aprender a língua de máquina, ela não usa nenhum tipo de giria, metáfora, sarcasmo etc. Diferente da língua humana, apenas um humano consegue entender outro (e as vezes nem ele).
+   O código é a linguagem na qual expressamos nossos requisitos. Podemos criar ferramentas que nos ajudem a analisar a sintaxe e unir tais requisitos em estruturas formais. Mas jamais eliminaremos a precisão necessária, portanto, sempre haverá um código
+
+
+
+Código ruim
+-------
+
+Um código ruim não atrapalha apenas a vida de seu usuário, mas na maior parte do tempo atrapalha o seu próprio criador ou até mesmo um pobre coitado que foi convocado para dar-lhe manutenção. Um código mal estruturado acaba virando uma bola de neve, sempre dizemos que amanhã vamos refatorar aquele código cabeludo, mas esse amanhã nunca chega. Todos escrevemos códigos ruins, desde um estagiário a um Senior, a diferença é o que fazemos com esse código ruim, se apenas comemoramos que ele funciona sem nem mesmo entender uma linha dele, ou se refatoramos aquele código, até estar completamente performático, padronizado e de uma maneira que até mesmo outro humano consiga entende-lo.
+
+ - Um programador escreve códigos que sua máquina entenda, um BOM programador escreve códigos que até um humano entenda.
+
+
+
+O Custo de Ter um Código Confuso
+------
+
+"A função dos gerentes é proteger com paixão o prazo e os requisitos do sistema. A sua é proteger o código com essa mesma paixão."
+
+"Escrever um código limpo é como pintar um quadro. A maioria de nós sabe quando a figura foi bem ou mal pintada. Mas ser capaz de distinguir uma boa arte de uma ruim não significa que você saiba pintar."
+
+
+O que é um Código Limpo?
+-----
+
+"O código limpo faz bem apenas uma coisa."
+
+Um código limpo proporciona uma leitura natural; e lê-lo deve ser belo como ouvir uma música num rádio ou visualizar um carro de design magnifico.
+
+Como Escrever um Código Simples?
+
+ - Efetue todos os testes;
+ - Sem duplicação de código;
+ - Expressa todas as ideias do projeto que estão no sistema;
+ - Minimiza o número de entidades, como classes, métodos, funções e outras do tipo
+
+* Duplicação e Expressividade * 
+
+"Não é a linguagem que faz os programas parecerem simples, é o programador."
+
+"Deixe a área do acampamento mais limpa do que você a encontrou."

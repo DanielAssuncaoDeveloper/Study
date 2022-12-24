@@ -1,0 +1,38 @@
+Funções 
+-------
+
+"A primeira regra para funções é que elas devem ser pequenas. A segunda é que precisam ser mais pequenas ainda."
+
+"As funções devem ter no máximo 20 linhas."
+
+
+Blocos e Endentação
+-------
+
+Blocos de código dentro de instruções if, else, while e outros devem ter apenas UMA linha. Possivelmente uma chamada de função. Álem de manter a função pequena, isso adiciona um valor significativo, 
+
+
+"AS FUNÇÕES DEVEM FAZER UMA COISA. DEVEM FAZÊ-LA BEM. DEVEM FAZER APENAS ELA."
+
+"Uma forma de saber se uma função faz mais de 'uma coisa', é se você pode extrair outra função dela a partir de seu nome que não seja apenas uma reformulação de sua implementação."
+
+"Nomes extensos são melhores que do que um pequeno e enigmático."
+
+"A quantidade ideal de parâmetros para uma função é zero. Depois vem um, seguido de dois. Sempre que possivel devem-se evitar três parametros. Para mais de três deve-se ter um motivo muito especial"
+
+
+Formas Mônades Comuns
+---------
+
+"Há dias razões bastantes comuns para se passar um único parâmetro. Você pode estar fazendo uma pergunta sobre aquele parâmetro ou você pode trabalhar naquele parâmetro, transformando-o em outra coisa e retornando-o"
+
+
+Parâmetros Lógicos
+------
+
+"Passar um booleano para uma função certamente é uma prática horrivel, pois ele complica imediatamente a assinatura do método, mostrando explicitamente que a função faz mais de uma coisa. Ela faz uma coisa se o valor for verdadeiro, e outra se for falso!"
+
+
+
+
+"A duplicação pode ser a raiz de todo mal no software."
