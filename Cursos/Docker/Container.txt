@@ -1,0 +1,144 @@
+Doc: https://balta.io/blog/docker-instalacao-configuracao-e-primeiros-passos
+
+
+Container X Imagem
+--------------------
+- Imagem e container são recursos fundamentais do Docker;
+
+- Imagem é o "projeto" que será executado pelo container, todas instruções estaram declaradas nela;
+
+- Container é o Docker rodando uma imagem, consequentemente executando algum código proposto por ela;
+
+- O fluxo é: programamos uma imagem e executamos por meio de um container. 
+
+Obs: Uma imagem, pode ter base de uma outra imagem
+
+
+==============
+Executando Imagens em Container
+----------
+
+As imagens podem ser encontradas no: https://hub.docker.com
+
+Nesse site podemos encontrar imagens oficiais para executarmos.
+
+----
+
+Para executar uma imagem em um container basta digitar no CMD
+
+--  $docker run <IMAGEM>
+Ex: $docker run ubuntu
+
+Neste exemplo, estamos executando a imagem UBUNTU em um container Docker.
+Importante destacar que, caso a imagem não tenha sido baixada, o docker irá baixar a imagem antes de executa-la.
+
+Porém quando executamos uma imagem desta maneira, estamos executando-a e finalizando automaticamente. Caso queiramos interagir com a imagem durante sua execução (caso a mesma permita também), devemos utilzar a flag "-it". Exemplo:
+
+-- $docker run -it ubuntu
+
+Com essa imagem específica, quando rodamos a imagem do ubuntu assim, temos acesso a um terminal ubuntu.
+
+
+================
+Verificando Containers Executados
+------------
+
+Para observar os containers que estão sentdo executados, devemos utilizar o comando:
+
+-- $docker ps
+ou
+-- $docker container ls
+
+Porém, caso queiramos ver os containers que já foram executados, utilizamos a flag -a.
+Exemplo:
+
+-- $docker ps -a
+
+
+=================
+Container X VM (Virtual Machine)
+------------
+Uma VM, é literalmente o que diz seu nome, uma "Máquina Virtual", ou seja, contém todos os ítens de uma máquina convencional porém é acessada de maneira remota, podendo executar diversas aplicações ao mesmo tempo e consumindo um grande espaço de memória. 
+
+Já um Conteiner, é uma APLICAÇÃO que serve para um determinado fim, não possui SO e seu tamanho é de apenas alguns MBs.
+Conteiners servem para resolver um problema isolado (executar aplicações SQL, Web Servers, Services, etc. Onde cada aplicação demandaria um container).
+
+
+=================
+Executando container em Backgroung
+------------
+Temos algumas formas de executar containers.
+De maneira que ele execute suas operações e finalize a aplicação; excutando de maneira interativa (-it), onde o conteiter trava o terminal; e também a execução em background dos containers (lembrando que cada tipo de execução vai depender da imagem que está sendo utilizada). 
+ 
+Podemos executar containers dessa maneira utilizando a flag -d (detached). Uma imagem legal para utilizar esta forma de execução é o nginx. Exemplo
+
+-- $docker run -d nginx
+
+O Nginx é um proxy para protocólos HTTP, HTTPS, SMTP, POP3 e IMAP.
+Obs, Proxy seria um intermediário entre o Client e o Sevidor.
+
+
+===================
+Expondo portas para os containers
+-----------
+Os conteiners não tem conexão com o mundo externo, então para podermos acessa-los, precisamos expor portas.
+
+A flag para expor a porta é:
+-p PORT1:PORT2
+
+PORT2 seria a porta que o container tem para ser esposta e a PORT1 que vamos expor da nossa maquina para acessar o container. 
+
+
+====================
+Parando containers
+---------
+Para podermos parar um conteiner, usamos o comando:
+
+$docker stop <PARAM>
+
+O parametro '<PARAM>', pode ser tanto o ID ou Nome do container que desejamos parar
+
+==================
+Reiniciando containers
+-----------
+Podemos também reiniciar containers já executados com o comando:
+
+$docker start <ID>
+
+O parametro '<ID>', seria o Id do container que desejamos reiniciar.
+
+É importante deixar claro que o docker RUN cria um novo container, já o docker START, reinicia um container já executado.
+
+=================
+Definindo nomes para containers
+---------------
+Para definirmos o nome de um container, utilizamos a flag --name. Ex:
+
+$docker run -d --name <NOME> node
+
+No parametro '<NOME>' passamos o nome que desejamos dar ao nosso container.
+Obs: Não é possível existir dois containers com o mesmo nome.
+
+================
+Verificando Logs de um container
+-------------
+Para podermos verificar os logs gerados por um container, utilizamos o comando:
+
+$docker logs <PARAM>
+
+O parametro '<PARAM>' se refere ao Id ou Nome do container que estamos nos referenciando.
+
+================
+Removendo containers
+--------
+Os containers ocupam espaço no armazenamento de nossa máquina, então é interessante remover alguns containers que não estamos utilizando para liberar espaço.
+Para remover os container utilizamos o comando:
+
+$docker rm <PARAM>
+
+O parametro '<PARAM>' se refere ao Id/Nome do container que desejamos remover.
+Obs: Para remover um container em execução, deve ser utilizada a flag: -f
+
+
+
+
