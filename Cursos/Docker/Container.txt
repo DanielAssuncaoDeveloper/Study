@@ -139,6 +139,15 @@ $docker rm <PARAM>
 O parametro '<PARAM>' se refere ao Id/Nome do container que desejamos remover.
 Obs: Para remover um container em execução, deve ser utilizada a flag: -f
 
+=============
+Acessando terminal bash do container
+------------
+Para acessar o terminal bash do container usamos o comando:
+
+$docker exec -it <id_container> bash
+
+
+
 
 
 
