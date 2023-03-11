@@ -42,9 +42,9 @@ class Program
         // Dynamic Se comporta como um object, porém seu tipo é definido em tempo de execução
         dynamic varDynamic = 10;
         varDynamic = "Daniel";
-        varDynamic = varDynamic + 10; // A operação em tipos Dinamic implicitos é permitica (desde que os tipos possam operar entre sí)
+        varDynamic = varDynamic + 10; // A operação em tipos Dinamic implicitos é permitida (desde que os tipos possam operar entre sí)
 
         varObject = "Daniel";
-        varObject = varObject + 10; // Porém a mesma operação com o tipo object não pode ser compilada
+        //varObject = varObject + 10; // Porém a mesma operação com o tipo object não pode ser compilada
     }
 }
