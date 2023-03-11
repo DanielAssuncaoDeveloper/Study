@@ -1,0 +1,3 @@
+---
+Executar arquivos em Elixir:
+$ elixir [NOME_ARQUIVO]

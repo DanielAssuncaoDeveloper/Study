@@ -4,7 +4,7 @@ Doc: https://balta.io/blog/docker-instalacao-configuracao-e-primeiros-passos
 Container X Imagem
 --------------------
 - Imagem e container são recursos fundamentais do Docker;
-
+l
 - Imagem é o "projeto" que será executado pelo container, todas instruções estaram declaradas nela;
 
 - Container é o Docker rodando uma imagem, consequentemente executando algum código proposto por ela;
@@ -21,7 +21,7 @@ Executando Imagens em Container
 As imagens podem ser encontradas no: https://hub.docker.com
 
 Nesse site podemos encontrar imagens oficiais para executarmos.
-
+	ock
 ----
 
 Para executar uma imagem em um container basta digitar no CMD
@@ -138,6 +138,15 @@ $docker rm <PARAM>
 
 O parametro '<PARAM>' se refere ao Id/Nome do container que desejamos remover.
 Obs: Para remover um container em execução, deve ser utilizada a flag: -f
+
+=============
+Acessando terminal bash do container
+------------
+Para acessar o terminal bash do container usamos o comando:
+
+$docker exec -it <id_container> bash
+
+
 
 
 

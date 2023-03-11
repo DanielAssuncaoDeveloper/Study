@@ -1,0 +1,69 @@
+Programming Linguistics
+=======================
+
+As Linguagens de Programação e Linguagens Naturais tem certas semelhanças, como a sintaxe (forma) e a semântica (significado). Porém as linguagens Naturais são muito mais amplas e Expressivas que as Linguagens de programação, pois são utilizadas pela população humana para expressar sentimentos, desejos, criar uma comunicação entre os seres etc. Mas ela está restrita a o que é, não podemos criar uma nova com nossos gostos de uma maneira que pessamos que seja melhor por N motivos, as linguagens naturais sempre serão o que são. Claro que há uma alteração na forma e significado com o passar do tempo, mas a essencia sempre será a mesma, não podendo criar outra para poder ter um comportamento diferente.
+
+Ja as linguagens de programação não, temos diversas linguagens com propósitos diferentes a fim de resolver problemas diferentes, algumas focadas em uma sintaxe mais intuitiva ao olhar humano, outras focando na alta eficiencia, segurança, maior facilidade de comunicação com o hardware e etc.
+E a melhor parte, é que podemos criar novas linguagens para resolver novos problemas, ou resolver problemas antigos de novas formas, uma caracteristica inexistente nas linguagens naturais. 
+
+
+Concepts and Paradigms
+=======================
+Para uma linguagem ser considerada uma linguagem de programação, deve cumprir alguns requisitos fundamentáis.
+
+As linguagens de programação devem ser UNIVERISAIS, no sentido de que todo problema deve ter uma maneira de ser resolvido na linguagem (se o problema possa ser resolvido por um computador claro).
+
+Também devem ser naturais para resolver problemas dentro de seus escopo defínido. Por exemplo, uma linguagem de programação cujos únicos tipos de dados são números e matrizes pode ser natural para resolver problemas númericos, mas pouco natural para resolver problemas em comércio ou inteligência artificial.
+Por outro lado, uma
+linguagem de programação cujos únicos tipos de dados são cadeias de caracteres e listas
+seria uma escolha não natural para resolver problemas numéricos.
+Depende do problema que desejamos resolver e seu escopo, afinal, você não vai querer bater um prego com um alicate, pode até funcionar dependendo do jeito que você fizer, mas a tarefa não vai ser realizada da melhor maneira possível e com um esforço muito maior para ser realizada.
+
+Uma linguagem de programação também deve ser implementável em um computador. Ou seja, devemos poder executar nossos programas escritos em uma linguagem em uma máquina computacional.
+Linguagens naturais não são implementáveis, pois são imprecisas e ambíguas, impossibilitando a intruções de tarefas ao computador.
+
+
+Devemos também estudas os conceitos que subjazem ao desing de linguagens de programação como: dados e tipos, variáveis e armazenamento, vinculação e escopo, abstração procedimental, abstração de dados, abstração genérica, sistemas de tipos, controle e concorrência. Embora nós provavelmente nunca projetemos uma linguagem de programação, como utilizadores das linguagens, podemos nos beneficiar estudando esses conceitos, pois as linguagens de programação são nossas ferramentas mais básicas e devemos domina-las completamente para usa-las efetivamente.
+
+"Podemos dominar uma nova linguagem de programação de forma mais eficaz se entendermos os conceitos subjacentes que ela compartilha com outras linguagens de programação."
+
+Tão importante quanto esses conceitos são as composições deles por meio de paradigmas. Existem seis paradigmas principais: 
+
+- A programação imperativa é caracterizada pelo uso de variáveis, comandos e procedimentos; 
+- A programação orientada a objetos pelo uso de objetos, classes e herança; 
+- A programação concorrente pelo uso de processos concorrentes e várias abstrações de controle; 
+- A programação funcional pelo uso de funções; 
+- A programação lógica pelo uso de relações; 
+- A as linguagens de script pela presença de recursos de alto nível.
+
+
+
+
+Syntax, semantics, ans pragmatics
+===================
+Todas linguagens de programação tem os seguintes elementos:
+
+- Sintaxe: Diz respeito à forma dos programas, como as expressões, comandos, declarações e outras contruções devem ser organizadas para formar um programa bem construido.
+
+- Semântica: O siginificado dos programas, como um programa bem elaborado pode ser esperado para se comportar quando executado.
+
+- Pragmática: Como a linguagem é destinada a ser utilizada.
+
+A sintaxe é a visão que os programadores tem do código escrito na linguagem e analisado pelo computados. Semântica, entrega o significado do código escrito, como os programas são compostos e interpretados, tanto por programadores ou pela máquina. A pragmática define como implementar e projetas programas na prática.
+
+A sintaxe de um código é importante, mas a semantica e pragmatica são ainda mais indispenssáveis.
+
+
+Language Processors
+=====================
+Linguagens de alto nível são imprementadas compilando programas em linguagens de máquina, interpretando-os diretamente ou por alguma combinação de compilação e interpretação.
+
+Os sistemas que processam, executam ou preparam programas para execução, são chamados de Processador de Linguagem. Processadores de linguagem incluem compiladores, interpretadores e ferramentas como IDEs e Debuggers.
+
+
+
+
+
+
+
+  

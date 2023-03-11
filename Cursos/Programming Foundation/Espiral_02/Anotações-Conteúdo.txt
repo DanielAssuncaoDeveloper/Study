@@ -1,0 +1,87 @@
+Apadrinhe Sua Linguagem
+========================
+Para a aprendizagem realmente dar frutos, não basta apenas guardar os conceitos aprendidos em nossa mente. Para oq aprendermos ser realmente absorvido, devemos aplicar nosso conhecimento. 
+
+Para realmente alcançar nossos objetivos na programação, devemos estar alinhados com a teoria e "Correr atras", que seria ser um auto didata e busca pelos conhecimentos por conta própria.
+
+No cenário do Curso Programming Foundation, devemos apadrinhar uma linguagem, que esteja fora da grade desse curso (C# e Js).
+Em meu caso escolhi como linguagem principal Python e como secundaria Elixir.
+
+Minha escolha por Python é para aprender uma linguagem muito utilizada no mercado e também muito utilizada em Machine Learning, que é um conceito que tenho anceio em aprender em um futuro próximo.
+
+E minha escolha por Elixir é pois quero ser atordoado a aprender uma outra linguagem de um paradigma diferente do qual já tenho certo dominio, então como Elixir tem como paradigma principal a Programação Funcional
+
+
+Representação de Valores
+=========================
+Programar é o ato de criar algoritmos, mas pensando no passo a passo, cada instrução é como um calculo, e para realizar esses calculos, precisamos ter os VALORES.
+
+Então vamos começar pelos valores PRIMITIVOS, que são aqueles que a linguagem disponibiliza e são a base de todos os outros valores.
+
+Essa questão varia de cada linguagem. Cada linguagem disponibiliza uma gama de valores primitivos diferentes.
+
+Então para diferenciar esses valores, utilizamos a teoria dos grupos, como por exemplo:
+
+Números:
+ - Inteiros
+   - Inteiros Grandes
+     - Decimais
+
+Texto:
+ - Caracteres
+   - Conjunto de caracteres (textos)
+
+Verdadeiro ou Falso:
+ - Valores booleanos 
+
+Essa teoria é composta pelo seguinte critério: "Todos valores que pertencem ao mesmo grupo, podem realizar as mesmas operações".
+
+Então no grupo dos números, posso realizar operações apenas com números, não operações com números e textos ou booleanos.
+Para realizar operações entre valores, eles tem que estar dentre o mesmo agrupamento.
+Não agrupamos valores por achismos, mas sim suas operações em comum.
+
+Grupos podem ter tamanho e intervalo. Na matemática por exemplo, os números são infinitos, porém na programação não. Os números na programação tem um limite que são determinados pela quantidade de bits que o tipo pode armazenar.
+Como em C# por exemplo.
+
+--
+C# tem diversos tipos. 
+
+Um tipo decimal como o float, tem um intervalo de +ou- 1,5 * 10^-45 até +ou- 3,4 * 10^38, que tem uma precição de digitos decimais de ~6 a 9 e ocupa 4bytes (32bits)
+
+Também temos o Char que tem o intevalo de mais de 66K de caracteres (*Unicode*) e ocupa o tamanho de 2bytes (16bits)
+
+--
+No Js temos apenas 3 tipos primitivos:
+
+Number: Intervalo de +ou- 5 * 10^324 até 1,7 * 10^308 e ocupa 8 bytes
+
+Boolean: seu intervalo são de duas possibilidades (true ou false) e ocupa apenas 1byte
+
+String: Não tem limite de intervalo ou de tamanho.
+
+...... Tipos linguagens Afilhadas
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

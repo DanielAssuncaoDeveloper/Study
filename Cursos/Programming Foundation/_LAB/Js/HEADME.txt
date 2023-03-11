@@ -1,0 +1,3 @@
+---
+Executar arquivos JavaScript:
+$node [NOME_ARQUIVO]

@@ -1,0 +1,41 @@
+Intruduction
+=================
+Nos primórdios da computação, os programas eram escritos diretamente em linguagem de máquina. A linguagem de máquina é a sequencia de bits que controla diretamente o processador. Por conta disso, escrever programas era uma tarefa muito ardua e tediosa, quando foi necessário criar programas maiores, foi inventado o Assembly X86, que permitia que operações fossem expressas com abreviações *mnmônicas*.
+
+As linguagens Assembly, continham uma correspondencia de 1:1 entre abreviações mnmonicas e linguagem de máquina, isso se dava por conta de um sistema conhecido como assembler.
+Os assemblers foram evoluindo com a elaboração de *"macro expansion"* para permitir que programadores definissem  abreviações para sequencias de instruções comuns.
+Acontece que cada tipo de máquina diferente, tinha que ser programado com sua própria linguagem assembly, porém a medida que os computadores evoluiram, tournou-se cada vez mais frustrante reescrever programas para cada máquina nova, e também a grande dificuldade dos programadores acompanharem a quantidade de detalhes de grandes sistemas assembly. Com isso, surgiu a necessidade de uma linguagem independente da máquina, essas necessidade levou a criação do Fortran, que foi a primeira linguagem de alto nível.
+
+Traduzir uma linguagem de alto nível para assembly ou linguagem de máquina, é trabalho de um programa conhecido como compilador.
+Fortran demorou para ser aceito pela comnunidade, pois humanos poderiam quase sempre escrever programas em assembly que teriam um poder de eficiencia muito maior que um compilador poderia produzir. Porém com o passar do tempo, os hardwares foram evoluindo, possibilitando a evolução também na tecnologia de compiladores, que agora poderia gerar na maioria das vezes um código assembly melhor do que um humano pudesse escrever, mas mesmo em casos que humanos pudessem escrever um código melhor, o aumento na velocidade de um computador e o tamanho dos programas escritos, tornaram mais importante economizar no esforço do programador do que no processamento da máquina.
+
+
+
+The Art of Language Design
+==========================
+Temos diversas linguagens de programação de alto nível, mas por que tantas? Existem respostas possíveis como:
+
+- Evolução. A Ciencia da computação é uma disciplina jovem, as linguagens evoluem de acordo com as necessidades, paradigmas ou formas de escrever código como programação estruturada, programação orientada a objetos ou linguagens de script.
+
+- Propósitos especiais. Cada linguagem tem seu escopo específico, claro que podemos criar diversas coisas fora do escopo principal de uma linguagem, mas seu ponto forte realmente é definido por seu propósito.
+
+- Preferencia pessoal. Pessoas tem gostos diferentes, gostam de paradigmas e formas de programar diferentes, o que acaba impactando na escolha de uma linguagem a se usar.
+
+Mas das diversas linguagens já produzidas, o que as tornam realmente bem sucessedidas?
+
+- Poder Expressivo; 
+- Facilidade de uso para iniciantes;
+- Fácil implmentação;
+- Padronização;
+- Open Source;
+- Bons Compiladores;
+- Economia, Patronagem e Inércia.
+
+Nenhum ponto isolado determinal se uma linguagem é boa ou ruim. Ao estarmos caminhando em uma linguagem de programação, devemos analisar os pontos bons e negativos da linguagem de diversas perspectivas, não só do programador como do implementador.
+
+
+macro expansion - é uma regra ou padrão que especifica como uma determinada entrada deve ser mapeada para uma saída de substituição. Basicamente, realiza a substituição de um código por outro mais eficiente. Em C, uilizamos uma macro quando o tempo de chamada da função é maior que o tempo de execução de suas operações, então quando é realizado o pré-processamento, a chamada da macro é trocada pelo código que a mesma abstrai.
+Referencia: https://sites.google.com/site/assignmentssolved/mca/semester3/mc0073/11
+
+
+

@@ -1,0 +1,7 @@
+---
+Criar novo projeto de console:
+dotnet new console --use-program-main 
+
+---
+Para executar o projeto:
+$ dotnet run

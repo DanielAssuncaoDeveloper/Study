@@ -1,0 +1,46 @@
+O que é uma imagem?
+===================
+- Imagens são originadas de arquivos que programamos para que o Docker crie uma estrutura que execute determinadas ações em containers
+
+Imagens contém informações como:
+ - Imagens base
+ - Diretório base
+ - Comandos a serem executados
+ - Porta da aplicação
+
+
+-----
+Criando uma imagem
+===================
+Para criar uma imagem vamos precisar de um arquivo Dockerfile em uma pasta que ficara o projeto.
+Este arquivo vai precisar de algumas instruções para poder ser executado, com:
+ - FROM: Imagem base
+ - WORKDIR: Diretório da aplicação
+ - EXPOSE: Porta da aplicação
+ - COPY: Quais arquivos precisam ser 
+copiados 
+ - RUN: Executa um comando
+ - CMD: Executa a aplicação
+
+Também é interessante observar que as imagens docker são escritas em "camadas" que são as linhas de comando da imagem.
+Cada camada guarda em cache o que foi executado.
+
+----
+Executando nossa imagem
+===================
+Para executar a imagem primeiramente vamos precisar fazer o build da aplicação.
+O comando para isso é:
+
+$docker build <diretório da imagem>
+
+Depois disso é apenas utilizar o docker run para executa-la.
+
+---
+Listando as imagens
+===========
+Para listar nossas imagens instaladas, basta executar o comando
+
+$docker image ls
+
+
+

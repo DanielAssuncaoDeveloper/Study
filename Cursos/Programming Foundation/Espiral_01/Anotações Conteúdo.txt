@@ -1,0 +1,140 @@
+Apresentação espiral? (Video 1)
+===================
+A espiral é uma introdução ao mundo da computação. Entender como um computador funciona, como as linguagens se comportam na memória de uma maneira simples para armazenamento de valores e introdução a algoritimos básicos de entrada e saída de dados  
+
+
+O que um computador faz?
+==========================
+Em sua essencia, um computador realiza calculos.
+
+Nos processadores do computador, temos uma área chamada ULA (Unidade Lógica Aritimética), tendo uma unidade referente a parte logica e aritimética, podemos concluir que um computador realiza calculos lógicos e aritiméticos.
+
+Calculos aritiméticos seriam operações básicas da matématica
+
+Calculos lógicos seriam as operações de condição E e OU
+
+
+O que é o ato de programar?
+==========================
+
+A palavra programar se remete a um planejamento, é pensar de maneira antecipada.
+
+Mas programar na área da computação significa Criar Algoritimos. Mas o que é um algoritimo?
+
+"Um algoritimo é uma sequencia de passos com começo meio e fim, escritos de forma precisa e não ambígua, sendo instruções certeiras que não tenham dupla interpretação e que possam ser executados mecanicamente por uma máquina afim de resolver um problema"
+
+Esse é o ponto principal, o intuito da programação é resolver um problema. O que define se um programa é eficiente ou não é se ele consegue resolver o problema proposto.
+
+
+Representação de Algoritimos e Lógica
+=======================
+Podemos representar um algoritimo de maneira visual por um fluxograma ou então por pseudo-linguagens
+
+já a lógica é um conjunto de pensamentos 
+
+Precisamos conhecer as regras do jogo para poder  combina-las para ganha-lo
+
+
+Comentários sobre o jogo
+=============
+
+A lógica é a habilidade de combinar elementos disponibilizados para resolver um problema.
+
+No exemplo do jogo, eram disponibilizadas peças afim de resolver o desafio proposto.
+
+A lógica, estava em combinar as peças disponibilizados para coletar todas cenouras. Combinando os comandos afim de resolver o desafio estavamos utilizando a lógica para criar um algoritimo.
+
+Para podermos exercitar a lógica, não precisamos de várias "fases", mas sim limitar os algoritimos que podemos utilizar.
+
+Mas qual é a melhor código?
+Existem várias respostas, a correta depende do que você espera do código. Que ele seja mais performático? Que ele seja autoexplicativo ou de fácil entendimento? Que siga um determinado paradigma? Existem várias questões a serem verificadas para resolver essa pergunta
+
+
+Classificação de Linguagem de Programação
+==========================
+A Linguagem de Programação é uma forma linguagem. A linguagem pode ser classificada de dois tipos: 
+ - Natural: Surgiu naturalmente, sem nenhum tipo de planejamento para sua criação;
+ - Artificial: São planejadas com um objetivo.	
+
+A linguagem de Programação é uma linguagem artificial e está no grupo das linguagens FORMAIS, onde é preciso se expressar com exatidão utilizando a linguagem.
+
+Dentro das linguagens formais, temos também as linguagens mecânicas (que podem ser excutados por uma máquina).
+
+Em uma comunicação com linguagens naturais, Temos duas ou mais pessoas, onde uma transmite uma mensagem com uma INTEÇÃO e os receptores dessa mensagem tem uma INTERPRETAÇÃO. Acontece que essa mensagem abre margem para mais de uma interpretação, acontecendo assim uma ambiguidade.
+
+Porém na programação, a comunicação é entre homem e máquina, onde o homem envia uma mensagem, a máquina a recebe porém não a interpreta, pois ela não contém senso crítico, mas sim a recebe e a executa caso compreenda, caso contrário não faz nada. 
+
+"A máquina faz exatamente o que você manda, não o que você pede."
+
+Para isso, precisamos ser precisos em passar nossa mensagem para a máquina para que possamos ser completamente compreendidos.
+
+
+A linha entre o Permanente e o Transitório
+=============================
+Somos ensinados que na tecnologia, tudo se transforma muito rápido e temos que estar 100% do tempo nos atualizando, porém não é exatamente assim. Existem coisas na tecnologia que são PERMANENTES e que são TRANSITÓRIOS
+
+Existem coisas que são efemeras e passageiras e que são permanentes que fazem parte da base,
+Ja as coisas transitórias são criadas a partir das permanentes
+
+A partir de cada elemento é criado o próximo
+
+Lista de permanente ao transitório
+---------------
+1. Matemática Discreta
+2. Linguagem da Lógica
+
+POUCO TRANSITORIO
+-----------------
+3. Ling. Programação BAIXO NIVEL
+4. Lógica da Programação
+5. Ling. Programação ALTO NÍVEL
+6. Framework Interno
+
+MUITO TRANSITORIO
+---
+7. Frameworks Externos
+8. Libs
+
+Elementos Primários e Compostos
+===============================
+Em todos componentes existentes no úniverso, teremos elementos primários e compostos
+
+Primário -> Aquilo que não se pode dividir;
+Composto -> Aquilo que se divide.
+
+Elementos compostos, nada mais são do que uma COMPOSIÇÃO dos elementos primitivos, criando graus de complexidade escalaveis a cada vez que uma nova composição é formada.
+
+E dentro disso, temos o conceito da abstração. A abstração é a arte de buscar o essencial. Na busca do essencial, perdemos detelhes, visando apenas oque é essencial
+
+No mundo da tecnologia, abstração significa esconder os detelhes e apresentar algo simples de ser utilizado, assim como um carro.
+Um carro é um objeto extremamente COMPLEXO, porém sua abstração esconde os detalhes não necessários para seus usuários deixando disponível apenas o essencial para ser utilizado de uma forma fácil
+
+Programação inteira se resume em abstração, mas o que é absração?
+
+
+Memória do Programa
+===================
+Nos foi apresentado na espiral que um computador realiza calculos aritméticos e lógicos por meio de seu processar e também que a dinâmica de qualquer programa se realiza pela entrada e saída de dados, porém como guardamos esses dados calculados e inputados temporáriamente? Para isso o computador tem um componente chamado de memória RAM, ela é responsável por guardar as informações TEMPORÁRIAS que os programas utilizam em seu tempo de execução.
+Exemplo, se o programa vai realizar um calculo de 5 + 2, ele precisa guardar o valor dessa operação na memória, porque senão ele o esquece. 
+Ou então informações inputadas pelo usuário, essas informações tem que estar guardadas inicialmente na memória RAM, para o programa consultar o valor da celula que guarda aquela informação, realizar alguma operação ou armazenar em algum outro tipo de memória.
+
+
+Mas como o programa sabe onde guardou essas informações?
+As celulas da memória tem uma identificação que o próprio programa da.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

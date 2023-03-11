@@ -1,0 +1,3 @@
+---
+Executar arquivos em Python:
+$py [NOME_ARQUIVO]

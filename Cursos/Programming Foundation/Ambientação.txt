@@ -1,0 +1,94 @@
+Programming Foundation
+=======================
+"O ensino da Devmonk está assentada em 4 pilares. Teoria, prática, disciplina e treino."
+
+Sobre o curso:
+--------------
+O curso é desenhado para tapar o "gap" de quem está iniciando na programação.
+
+Creio que por conta de uma certa ansiedade para desenvolver coisas novas, os programadores acabam dando passos maiores que as pernas e acabam pulando passos importantes para se tornarem bons programadores. Onde começam a aprender o básico de uma linguagem e já vão direto para seus fremeworks. Sem se especificar em como a linguagem trabalha, seus pontos fortes/fracos, as ferramentas que a linguagem disponibiliza, como ela faz seu controle de memória e etc.
+
+Acho muito interessante explorar essa parte filosófica da programação. Entender a fundo seus conceitos e não ter uma formação raza sobre os fundamentos.
+
+========
+O método
+-------------
+
+Em geral, os cursos EAD tem um método ineficiente, onde um lecionador disponibiliza os vídeos com o conteúdo e seus alunos os assistem. Muitas vezes no formato de tutorial e com uma formação raza, sem nenhum acompanhamento do lecionador para garantir que seus alunos absorveram o conteúdo.
+
+A Devmonk deseja mudar essa realidade dos cursos EAD. Sacrificando a quantidade de alunos para os mesmos poderem ter um bom acompanhamento de seu professor. 
+O método da Devmonk tem como principais ambientes a plataforma e o servidor no discord. Na plataforma acontece a absorção e fixação do conteúdo, por meio de vídeos, exercícios teóricos e práticos.
+No servidor do discord acontece o acompanhamento do professor e da comunidade. Onde acontece as entregas, feedbacks do professor e discussões sobre temas levantados.
+
+===========
+Plataforma
+------------
+
+Na plataforma podemos ter o acompanhamento do conteúdo dos cursos.
+Na plataforma temos 3 sistemas. Conteúdo, treino teórico e treino prático.
+
+No conteúdo podemos ver os vídeos da espiral.
+
+No treino teórico colocamos a prova se realmente entendemos os conceitos abordados no sistema de conteúdo.
+
+No treino prático realmente colocamos a mão na massa. Escrevendo códigos para resolver algum desafio abordado.
+
+===========
+Discord
+-------
+
+No discord é onde principalmente acontece as entregas e feedbacks do professor.
+
+O sérvidor é composto por algumas categorias:
+
+- Devmonk: Uma categoria onde temos os canais iniciais do servidor
+  - bem-vindo: Onde temos as mensagens de boas vindas aos novos integrantes do Clam
+  - avisos: Onde ocorrem avisos sobre os cursos.
+  - regras: As regras das plataformas
+  - SANGUE-NOS-OIO: Um canal para ter um bate-papo entre os integrantes do servidos.
+
+- Personal Dev: Uma categoria onde temos um canal privado entre o aluno e o professor. Onde temos alguns tópicos.
+  - Feedback: Um tópico onde o professor pode fazer comentários sobre suas entregas.
+  - Comprovante: Um tópico para enviar o comprovante de pagamento do curso.
+  - Minha jornada: Um tópico destinado a reflexoes, como um diário da sua jornada nos seus estudos.
+  - Orientação: Um tópico para obter a orientação do professor.
+
+- Espirais: As espirais é uma categoria onde acontece as entregas de cada espiral. Cada entrega é destinada aos tópicos:
+  - Conteúdo: Onde você informa ao seu professor que concluiu os vídeos da espiral
+  - Treino Teórico: Onde você informa ao seu professor que concluiu o treino teórico da espiral 
+  - Treino Prático: Onde você informa ao seu professor que concluiu o treino prático da espiral
+  - Anotações Conceitos: Onde você entrega suas anotações da espiral.
+  - Anotações Leitura: Onde entrega suas anotações de uma leitura disponibilizada na espiral
+  - Fórum: Onde acontecem discussões sobre o tema abordado na espiral
+
+Obs: As entregas devem ser realizadas de duas maneiras:
+ - Link: Onde podemos anexar um link com a entrega do tópico
+ - Código de aprovação: O código de aprovação gerado quando é concluida um sistema da espiral
+
+- Ajuda: Uma categoria onde podemos pedir ajuda para outros alunos e ajudar alunos com dúvidas/problemas
+
+
+Comandos:
+- /comprovante: Avisa a entrega de um comprovante
+- /entrega: Avisa a entrega de uma atividade
+- /postar: Realiza uma postagem no Fórum
+- /resolvido: Marca o tópico de Ajuda como resolvido 
+
+
+==================================
+Fórum
+-------
+
+Eu acredito que as habilidades-chave para se tornar um excelente estudante são: Foco, disciplina e dedicação. Com esses três elementos, podemos aprender literalmente qualquer coisa, independentemente do tempo que isso leva.
+
+Não há um dom natural para se tornar um programador, mas eu acredito que os programadores precisam ter uma habilidade incrível de persistência. Persistência para aprender, projetar soluções e analisar problemas. Para mim, a área de programação gira em torno da persistência. Se os programadores desistissem, provavelmente o mundo não seria o que é hoje.
+
+
+
+
+
+
+
+
+
+
