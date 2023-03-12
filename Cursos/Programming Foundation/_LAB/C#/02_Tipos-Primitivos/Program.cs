@@ -5,7 +5,6 @@ class Program
     {
         // Tipos internos de valor
         //-------------------------
-
         sbyte varSbyte = 0;     // -128 to 127                      | 8 bits
         byte varByte = 0;       // 0 to 255                         | 8 bits
         short varShort = 0;     // -32.768 to 32.767                | 16 bits
@@ -24,17 +23,16 @@ class Program
         double varDouble = 0;   // ±5.0 × 10^−324 to ±1.7 × 10^308  | ~15 to 17 digits   | 64 bits
         decimal varDecimal = 0; // ±1,0 x 10^-28 to ±7,9228 x 10^28 | 28 to 29 digits    | 128 bits
 
-        char varChar = '0';     // U+0000 to U+FFFF                  | 16 bits
+        char varChar = '0';     // U+0000 to U+FFFF                 | 16 bits
 
 
         // Tipos internos de referencia
         //-----------------------------
-
         // string é um tipo para conjunto de caracteres
         string varString = "";
 
         // Object é o pai de todos os tipos, logo todos podem ser atribuidos a ele e não conta com tipagem estática 
-        object varObject = null;  
+        object varObject;  
         varObject = false;
         varObject = 1.0;
         varObject = "";
@@ -44,7 +42,7 @@ class Program
         varDynamic = "Daniel";
         varDynamic = varDynamic + 10; // A operação em tipos Dinamic implicitos é permitida (desde que os tipos possam operar entre sí)
 
-        varObject = "Daniel";
+        //varObject = "Daniel";
         //varObject = varObject + 10; // Porém a mesma operação com o tipo object não pode ser compilada
     }
 }
