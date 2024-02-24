@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+
+    min-height: 100vh;
+    background: rgb(104, 11, 136);
+    background: linear-gradient(126deg, rgba(104, 11, 136, 1) 30%, rgba(58, 14, 74, 1) 100%);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+    padding: 80px 120px;
+
+    width: 100%;
+    max-width: 1866px;
+}
+
+aside {
+    background-color: #1E1E1E;
+    width: 30%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Merriweather;
+    font-weight: 900;
+    color: #E3E3E3;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 2.5em;
+}
+
+h2 span {
+    margin-left: 10px
+}
+
+.circle-fig {
+    width: 10px;
+    height: 10px;
+
+    border-radius: 100%;
+    background-color: #D9D9D9;
+}
+
+.line-fig {
+    width: 90%;
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+}
+
+.contact-tittle-container {
+    margin-left: 20px
+}
+
+.principal-bar {
+    background-color: #2C2B2B;
+    width: 70%;
+}
+
+.profile-picture-container{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 30px;
+}
+
+.profile-picture {
+    width: 300px;
+    height: 300px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 100%;
+    background: linear-gradient(126deg, rgb(104, 11, 136), rgb(58, 14, 74)) border-box;    
+}
+
+
+.profile-picture img {
+    width: 95%;
+    height: 95%;
+    border-radius: 100%;
+}

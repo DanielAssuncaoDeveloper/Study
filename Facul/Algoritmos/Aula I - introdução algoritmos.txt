@@ -1,0 +1,77 @@
+Prof: Thiago Claro
+Email: thiago.rclaro@sp.senac.br
+
+NÃO PROGRAME AQUILO QUE VOCÊ NÃO SABE CARALHO
+
+Algoritmos
+==================
+
+- Uma sequencia de instruções, que atingem um determinado objetivo
+// Exemplo da "receita de bolo"
+
+- Uma instrução para a máquina deve ser precisa, ao contrario de uma conversa humana onde, o receptor consegue interpretar a comunicação. Para realizar essa comunicação com a máquina, é necessário uma linguagem específica, de certa forma "lógica", onde a precição da comunicação é o que define uma linguagem de programação.
+
+- Algoritmo não computacional
+=================================
+
+- PEGAR A CHAVE
+- ABRIR O PORTA MALA
+- PEGAR O PENEU STEP
+- PEGAR A CHAVE DE TROCAR PNEU
+- PEGAR O "MACACO"
+- COLOCAR O MACACO SOB O CARRO
+- ALAVANCAR O MACACO DE FORMA QUE O CARRO LEVANTE
+- USAR A CHAVE DE TROCAR PNEU PARA DESPARAFUSAR OS PARAFUSOS DO PENEU FURADO NO CARRO
+- REMOVER O PNEU DO CARRO
+- COLOCAR O NOVO PNEU STEP NO CARRO
+- USAR A CHAVE DE TROCAR PNEU PARA PARAFUSAR OS PARAFUSOS NO NOVO PNEU NO CARRO
+- DESALAVANCAR O MACACO
+- PEGAR O PNEU FURADO E COLOCAR NO PORTAMALA
+
+=======
+Divisão das aulas de algoritmo
+==============================
+- Primeira aula teótica
+- Segunda aula no laboratorio com os computadores
+=============
+
+
+Conceitos que formam uma linguagem de prog
+=============
+1. Comando
+// Um termo que passado para o computador fazer algo
+
+2. Parâmetros
+// Um valor que é informado aos comandos para que eles possam realizar suas ações
+
+3. Sintaxe
+// As regras dos comandos
+// Para o computador, a sintaxe tem que ser precisa.
+
+
+5 Passos para elaborar um algoritmo
+===================================
+1. Entender o problema. Entender o que o algoritmos tem que resolver
+2. VOCÊ tem que saber como resolver o problema
+3. Criar uma sequencia de passos para resolver o problema
+4. Implementar o algoritmo
+5. Validação da sua implementação
+
+JANGADEIRO SCRIPT
+=========================
+VAI(G);
+VOLTA();
+VAI(T);
+VOLTA(G);
+VAI(M);
+VOLTA();
+VAI(G);
+
+--------
+VAI(T);
+
+
+PARA CASA
+==================
+- FAZER 6 LITROS COM A INDIAZINHA SCRIPT
+// ENCHER(); TRANSF(); ESVAZIAR();

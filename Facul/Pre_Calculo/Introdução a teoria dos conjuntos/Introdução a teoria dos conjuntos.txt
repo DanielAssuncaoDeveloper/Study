@@ -1,0 +1,261 @@
+Introdução a teoria dos conjuntos
+=================================
+Um conjunto é um agrupamento de informações (objetos, pessoas, coisas, etc). Conjuntos devem ser colecionaveis.
+
+Conjuntos = Coleção/Agurpamento de objetos
+==========================================
+Elementos = Objetos que formam um conjunto
+
+
+- Como representar um conjunto:
+	1. Representação por Enumeração/Extensão: Uma seleção de posição enumerada e ordenada. 
+	// V = {A, E, I, O, U}
+	// Os elementos são enumerados entre chaves e separados por virgula
+	// Uma enumeração, não necessáriamente tem que ser ordenada
+
+	2. Representação por Compreensão/Lógica: Um conjunto que seleciona seus elementos de forma condicional. Quando x == y ? entra : não entra
+	// V = { X | X é Vogal  }
+	"|" = Tal que
+	"X" = Elemento genérico (variável que guarda os elementos de V)
+	"| =>" Condição para entrar no conjunto
+
+	// OS ELEMENTOS VÃO ENTRAR CASO A PROPRIEDADE SEJA VERDADE	
+	// semelhante a uma condição de "WHERE"
+
+	3. Representação via diagrama de Venn: Um diagrama de enumeração de conjuntos
+	// Enumeração dos elementos de forma não ordenada dentro de um espaço usado para base analítica.
+
+
+Execício Exemplo:
+// Represente os conjuntos a seguir na forma por extensão.
+
+1. A = {x | x é um número par compreendido entre 1 e 11}
+// A = {2, 4, 6, 8, 10} = "Conjunto Finito (5 elementos)"
+
+
+2. B = {x | x é a solução positiva de X² = 4}
+// B = {2} = "Conjunto finito unitário, por ter somente 1 elemento"
+// X² = 4 => 
+      X = +/-RAIZ² de 4 => 
+        X = +/-2
+
+
+3. C = {x | x é um número impar maior que 3}
+// C = {5, 7, 9, 11, 13, 15, 17, 19, ...} = "Conjunto infinito"
+// "..." => Conjunto não enumerado
+
+
+4. D = {x | x é um solução par de 3x = 15}
+// D = {} = "Conjunto Vazio, AQUELE QUE NÃO TEM NENHUM ELEMENTO"
+
+
+https://mundoeducacao.uol.com.br/matematica/teoria-dos-conjuntos.htm
+=====================================================================
+
+Atributos
+=====================
+
+1. Atributo de Pertinencia
+---------------------------
+// Um atributo definido entre *elemento e conjunto*
+// Se o elemento está no conjunto, ele pertence ao conjunto
+
+V = {A, E, I, O, U} 
+"A" está no conjunto V <=> A ∈ V
+∈ = PERTENCE
+
+"5" não está no conjunto V <=> 5 ∉ V
+∉ = NÃO PERTENCE
+
+2. Atributo de igualdade
+------------------------
+// Dois conjuntos são iguais se possuem os mesmos elementos
+// CONJUNTOS IGUAIS PODEM SER DEFINIDOS POR CONDIÇÕES DIFERENTES
+
+A = {x | x é vogal da palavra "senac"}
+A = {e, a}
+
+B = {x | x é solução literal da equação (x - e) * (x - a) = 0}
+B = {e, a}
+
+---------------------
+(x - e) * (x - a) = 0
+// qual o item que deve estar em "x" para que a equação resulte em 0
+// Substituindo x por e (ou a na segunda operação), resultamos em (e - e) = 0 
+
+=============================================================================
+
+Subconjunto
+=======================
+// Subconjuntos são conjuntos internos que agrupam inforamções dentro de um conjunto "Pai"
+V = { P = {a, e}, i, o, u}
+
+SEJAM A e B dois conjuntos
+Dizemos que B é subconjunto de A
+se TODOS elementos de B pertencem a A
+// A = { B = {1, 2}, 3, 4 }
+
+B é Subconjunto de A <=> B ⊂ A ou A ⊃ B
+⊂ = "Está contido em"
+⊃ = "Contém"
+
+C = {x, y, z, k, w}
+D = {z, k, w, r}
+// D /⊂ C ou C /⊃ D
+⊄ = "Não está contido"
+⊅ = "Não contém"
+
+---------
+⊄, ⊅, ⊂, ⊃ = "São atributos de conjunto com conjunto"
+∈, ∉ = São atributos de elemento e conjunto"
+
+Exemplo:
+--------
+V = {a, e, i, o, u}
+
+a ∈ V // Comparação do elemento. "a" PERTENCE a V
+{a} ⊂ V // Comparação entre dois conjuntos. Um conjunto com "a" ESTÁ CONTIDO em V. Neste caso o conjunto de "a" seria um subconjunto de V
+
+==================================================
+
+Exercício exemplo: 
+1. A = {x | x é numero par entre 3 e 15}
+// A = {4, 6, 8, 10, 12, 14}
+
+2. B = {x | x é numero par menor que 15}
+// B = {..., -6, -4, -2, 0, 2, 4, 6, 8, 10, 12, 14}
+
+3. C = {x | x é numero par diferente de 2}
+// C = {..., -6, -4, -2, 0, 4, 6, 8, 10, 12, ...} 
+
+
+Usando ⊄ e ⊂, relacione entre si os conjuntos:
+
+a) A e B 
+// A ⊂ B 
+// A "Está contido em" B 
+
+b) A e C
+// A ⊂ C
+// A "Está contido em" C
+
+c) B e C
+// B ⊄ C
+// B "Não está contido em" C
+
+
+
+Álgebra de conjuntos
+========================
+Existem 3 operações elemtares entre conjuntos
+
+=========================
+1. União de conjuntos (∪)
+// Unir os elementos de dois conjuntos sem promover repetição
+"A união de dois conjuntos X e Y
+é um conjunto formado por elementos que pertencem a X e Y"
+
+X ∪ Y = {x | x ∈ X ou x ∈ Y}
+
+---
+Exemplos:
+
+a) A = {0, 2, 4, 6} / B = {0, 1, 2, 3, 4}
+A ∪ B = {0, 1, 2, 3, 4, 6}
+
+b) A = {0, 1, 2, 3, 4} / B = {1,3,5,7}
+A ∪ B = {0, 1, 2, 3, 4, 5, 7}
+
+--------------------------------------------
+- (A ∪ B == B ∪ A) = "Comutatividade" que significa que a ordem dos conjuntos operados não implica no resultado da operação
+- A ∪ {} = A 
+
+
+==============================
+2. Intersecção de conjuntos (∩)
+// Criar um conjunto com base nos elementos comuns entre dois conjunstos operados
+
+"A intersecção entre dois conjuntos X e Y é o conjunto
+formado por elementos que pertencem tanto a X quanto a Y SIMUNTANEAMENTE"
+(Elementos comuns)
+
+X ∩ Y = {x | x ∈ X e x ∈ Y}
+
+---
+Exemplos
+
+a) A = {0, 1, 2, 3, 4} / B = {1, 3, 5, 7}
+A ∩ B = {1, 3}
+
+b) C = {0, 1, 2} / D = {0, 1, 2, 3, 4}
+C ∩ D = {0, 1, 2}
+C ⊂ D // C "Está contido em " D
+
+c) A = {0, 2} / B = {1, 3, 5}
+A ∩ B = {}
+
+----------
+- Se A ∩ B = B Então B ⊂ A
+- Se A ∩ B = {} Então A e B são chamdos de Conjuntos Disjuntos
+- A ∩ {} = {}
+
+--------------------------------------
+Exercício exemplo
+- Dados os conjuntos:
+A = {a, b, c, d}
+B = {a, d, e}
+C = {b, d, f}
+D = {b, c}
+
+Determine:
+a) (A ∩ B) ∪ C = 
+// (A ∩ B) = {a, d}
+// {a, d} ∪ C = {a, b, d, f}
+
+b) (B ∪ D) ∩ A = 
+// (B ∪ D) = {a, b, c, d, e}
+// {a, b, c, d, e} ∩ A = {a, b, c, d}
+// A ⊂ (B ∪ D)
+
+c) (A ∪ C) ∩ D = 
+// (A ∪ C) = {a, b, c, d, f}
+// {a, b, c, d, f} ∩ D = {b, c}
+
+d) (A ∩ B) ∪ (C ∩ D) = 
+// (A ∩ B) = {a, d}
+// (C ∩ D) = {b}
+// {a, d} U {b} = {a, b, d}
+
+e) (A ∪ D) ∩ (B ∪ C) = 
+// (A ∪ D) = {a, b, c, d}
+// (B ∪ C) = {a, b, d, e, f}
+// {a, b, c, d} ∩ {a, b, d, e, f} = {a, b, d}
+
+f) (A ∩ C) ∩ (B ∪ D) =
+// (A ∩ C) = {b, d}
+// (B ∪ D) = {a, b, c, d, e}
+// {b, d} ∩ {a, b, c, d, e} = {b, d} 
+
+
+
+3. Diferença entre conjuntos (-)
+// Utilizado para fazer "filtro" de dados
+
+"A diferença entre os conjuntos X e Y é o conjunto formado por elementos
+ que pertencem a X mas não pertencem a Y"
+
+----------------------------
+X - Y = {x | x ∈ X e x ∉ Y}
+// X - Y != Y - X = "NÃO COMUTATIVO"
+
+-------
+Exemplo:
+
+A = {1, 2, 3, 4, 5}
+B = {2, 4, 6, 8}
+
+A - B = {1, 3, 5}
+B - A = {6, 8}
+// A diferença é realizada removendo a intersecção dos elementos de A
+
+

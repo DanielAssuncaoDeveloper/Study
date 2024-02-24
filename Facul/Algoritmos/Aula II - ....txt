@@ -1,0 +1,16 @@
+Caracteres de escape
+=====================
+- \n => Quebra de linha
+- \" => Adiciona áspas na string
+- \t => Adiciona um TAB na string
+- \\ => Adiciona a barra invertida para string
+- \% => Exibir o "%"
+
+
+Para adicionar um número em um printf 
+
+- %d => Adiciona número inteiro
+- %f => Adiciona número decimal
+
+
+
