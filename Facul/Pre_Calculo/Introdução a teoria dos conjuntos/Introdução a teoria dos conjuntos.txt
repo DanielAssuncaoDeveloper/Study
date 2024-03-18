@@ -88,13 +88,13 @@ B = {e, a}
 Subconjunto
 =======================
 // Subconjuntos são conjuntos internos que agrupam inforamções dentro de um conjunto "Pai"
-V = { P = {a, e}, i, o, u}
+V = { P = {a, e}, i, o, u}2	-
 
 SEJAM A e B dois conjuntos
 Dizemos que B é subconjunto de A
 se TODOS elementos de B pertencem a A
 // A = { B = {1, 2}, 3, 4 }
-
+	
 B é Subconjunto de A <=> B ⊂ A ou A ⊃ B
 ⊂ = "Está contido em"
 ⊃ = "Contém"
@@ -243,7 +243,7 @@ f) (A ∩ C) ∩ (B ∪ D) =
 
 "A diferença entre os conjuntos X e Y é o conjunto formado por elementos
  que pertencem a X mas não pertencem a Y"
-
+	
 ----------------------------
 X - Y = {x | x ∈ X e x ∉ Y}
 // X - Y != Y - X = "NÃO COMUTATIVO"
